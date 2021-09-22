@@ -29,6 +29,6 @@ public class ServletAgenda extends HttpServlet {
 		String nome = request.getParameter("nome");
 		String telefone = request.getParameter("telefone");
 		String nascimento = request.getParameter("nascimento");
-		response.getWriter().append("O contato "+nome+", telefone "+telefone+" e nascimento "+nascimento+" foi incluído com sucesso!");
+		response.getWriter().append("O contato "+nome+", telefone "+telefone+" e nascimento "+nascimento+" foi incluÃ­do com sucesso!");
 	}
 }
